@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header{
+  height:100%;
+  width:100%;
+  justify-content: center;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  cursor: pointer;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 300px;
+  margin-right:5%;
+}
+.menu li {
+  position: relative;
+}
+.menu ul {
+  display: flex;
+}
+.menu li a {
+  margin:20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color:#98AAB9;
+  font-weight: 500;
+}
+.menu a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: rgb(7, 167, 7);
+  left:0;
+  bottom: -4px;
+  transition: ease .42s;
+}
+.menu a:hover::after {
+  width: 100%;
+}
+.menu a:hover {
+  color:black;
+}
+.login {
+  width: 8%;
+  font-size: 20px;
+  font-weight: 600;
+  color:white;
+  background-color: rgb(7, 167, 7);
+  border-radius: 10px;
+  border: 1px;
+  cursor: pointer;
+}
+main {
+  height:100%;
+  width:100%;
+  justify-content: center;
+  text-align: center;
+}
+.main hr {
+  margin: auto;
+  max-width: 90%;
+  opacity:0.3;
+}
+.large-image {
+  height:60%;
+  width:35%;
+  position: absolute;
+  right:10%;
+  bottom:14%;
+}
+h2 {
+  color:rgb(60, 59, 59);
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size:20px;
+}
+h1 {
+  color:rgb(60, 59, 59);
+  margin-top: 15px;
+  line-height: 80px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size:70px;
+}
+span {font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color:rgb(7, 167, 7);
+}
+.text {
+  margin-top: 15px;
+  position: absolute;
+  top:35%;
+  left:12%;
+  width: 30%;
+}
+p {
+  line-height: 30px;
+  margin-top: 20px;
+  font-size: 16px;
+  color:#5b5b5b;
+}
+.shop {
+  margin-top: 30px;
+  width: 22%;
+  font-size: 20px;
+  font-weight: 500;
+  color:white;
+  padding: 10px;
+  background-color: rgb(7, 167, 7);
+  border-radius: 5px;
+  border: 1px;
+  cursor: pointer;
+}
