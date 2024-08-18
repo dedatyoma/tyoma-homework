@@ -3,120 +3,132 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
-  text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 .header{
-  height:100%;
+  height:150px;
   width:100%;
-  justify-content: center;
+  padding-top: 41px;
   text-align: center;
-  background-position: center;
-  background-size: cover;
-  position: relative;
 }
 .logo {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 25px;
+  height:50px ; 
+  display: inline-block;
   cursor: pointer;
+  vertical-align: top;
+  margin: 20px;
+  padding-right:200px;
 }
-nav{
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 300px;
-  margin-right:5%;
+.log{
+  height:30px;
+  width: 100px;
+  padding-top: 12px;
+  margin: 20px;
+  display:inline-block;
+  vertical-align: top;
 }
-.menu li {
+.group {
+  cursor: pointer;
+  width:220px;
+}
+.menu {
+  display:inline-block;
+  vertical-align: top;
+  padding-right:300px;
+}
+.link {
+  display: inline-block;
+  padding-top:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+  padding-left:20px;
+}
+.link a {
   position: relative;
-}
-.menu ul {
-  display: flex;
-}
-.menu li a {
-  margin:20px;
+  display: block;
+  margin: 20px;
   font-size: 20px;
   text-transform: capitalize;
-  color:#98AAB9;
+  color:black;
   font-weight: 500;
 }
 .menu a::after {
   content: '';
   position: absolute;
   width: 0%;
-  height: 2px;
+  top: 65px;
+  height: 4px;
   background: rgb(7, 167, 7);
   left:0;
-  bottom: -4px;
-  transition: ease .42s;
+  bottom: -9px;
+  transition: ease .32s;
 }
 .menu a:hover::after {
   width: 100%;
 }
 .menu a:hover {
   color:black;
+  font-weight: bold;
 }
 .login {
-  width: 8%;
+  width: 100px;
   font-size: 20px;
   font-weight: 600;
   color:white;
   background-color: rgb(7, 167, 7);
   border-radius: 10px;
   border: 1px;
+  padding: 5px;
   cursor: pointer;
 }
-main {
-  height:100%;
-  width:100%;
-  justify-content: center;
-  text-align: center;
-}
-.main hr {
+.line {
+  border: 0;
+  clear:both;
+  display:block;
   margin: auto;
-  max-width: 90%;
-  opacity:0.3;
+  width: 96%;               
+  background-color:rgb(7, 167, 7);
+  height: 2px;
+  opacity: 0.2;
 }
-.large-image {
-  height:60%;
-  width:35%;
-  position: absolute;
-  right:10%;
-  bottom:14%;
+.image{
+  display: inline-block;
+  padding-left: 300px;
+  margin-top:100px;
+  width: 400px; 
+  height: 200px;
+  vertical-align: top;
 }
-h2 {
+.text {
+  display: inline-block;
+  width: 700px; 
+  height: 200px;
+  margin-top: 250px;
+  margin-left:400px;
+  vertical-align: top;
+}
+.big-text {
+  line-height: 50px;
   color:rgb(60, 59, 59);
-  font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size:20px;
 }
-h1 {
-  color:rgb(60, 59, 59);
-  margin-top: 15px;
+.main-text {  
   line-height: 80px;
-  font-family: "IBM Plex Sans", sans-serif;
+  color:rgb(60, 59, 59);
   font-weight: 900;
   font-style: normal;
-  font-size:70px;
+  font-size:75px;
 }
-span {font-family: "IBM Plex Sans", sans-serif;
+span {
   font-weight: 900;
   font-style: normal;
   color:rgb(7, 167, 7);
 }
-.text {
-  margin-top: 15px;
-  position: absolute;
-  top:35%;
-  left:12%;
-  width: 30%;
-}
-p {
+.paragraph {
   line-height: 30px;
   margin-top: 20px;
   font-size: 16px;
@@ -124,7 +136,7 @@ p {
 }
 .shop {
   margin-top: 30px;
-  width: 22%;
+  width: 30%;
   font-size: 20px;
   font-weight: 500;
   color:white;
