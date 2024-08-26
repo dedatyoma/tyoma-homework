@@ -6,36 +6,30 @@
 }
 @font-face {
   font-family: "Cera Pro";
-  src: url("./font/CeraPro-Thin.ttf");
+  src: url("../font/CeraPro-Thin.ttf");
 }
 @font-face {
   font-family: "Cera Pro Bold";
-  src: url("./font/CeraPro-Black.ttf");
+  src: url("../font/CeraPro-Black.ttf");
 }
 @font-face {
   font-family:"Cera Pro Regular" ;
-  src: url("./font/CeraPro-Regular.ttf");
+  src: url("../font/CeraPro-Regular.ttf");
 }
 @font-face {
   font-family:"Cera Pro Medium";
-  src: url("./font/CeraPro-Medium.ttf");
+  src: url("../font/CeraPro-Medium.ttf");
 }
 .container{
-  max-width: 2200px;
-  padding: 70px;
+  padding-top: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .up {
   display: flex;
-  justify-content: space-between;
-  padding-left:350px;
-  padding-right:350px;
+  flex-direction: row;
 }
-.left{
-  display: flex;
-  padding: 20px;
-  align-items: center;
-}
-.right{
+.block{
   display: flex;
   padding: 20px;
   align-items: center;
@@ -79,6 +73,8 @@
   font-size: 15px;
 }
 .down{
+  display: flex;
+  flex-direction: column;
   margin-top: 100px;
 }
 .blog {
@@ -98,13 +94,15 @@
 }
 .products{
   text-align: start;
-  max-width: 1200px;
   margin: 20px auto;
 }
 .list{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.list-item{
+  margin: 10px;
 }
 .post-content{
   margin-top: 10px;
