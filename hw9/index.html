@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="filter-options">
+          <a href="#" class="nav-item">All Plants</a>
+          <a href="#" class="nav-item">New Arrivals</a>
+          <a href="#" class="nav-item">Sale</a>
+        </div>
+        <div class="sorting">
+          <label for="sort">Short by:</label>
+          <select id="sort">
+            <option class="opt" value="default">Default sorting</option>
+          </select>
+        </div>
+      </div>
+      <div class="main">
+        <ul class="list">
+          <li class="list-item">
+            <img src="./img/image 1.png" />
+            <div class="hover-elements">
+              <a href="#" class="icon"
+                ><img src="./img/icons8-cart-20.png" alt="cart"
+              /></a>
+              <a href="#" class="icon"
+                ><img src="./img/icons8-heart-20.png" alt="heart"
+              /></a>
+              <a href="#" class="icon"
+                ><img src="./img/icons8-search-20.png" alt="search"
+              /></a>
+            </div>
+            <p class="caption">Barberton Daisy</p>
+            <span class="price">$119.00</span>
+          </li>
+          <li class="list-item">
+            <img src="./img/product-21-320x320 1.png" />
+            <div class="hover-elements">
+              <a href="#" class="icon"
+                ><img src="./img/icons8-cart-20.png" alt="cart"
+              /></a>
+              <a href="#" class="icon"
+                ><img src="./img/icons8-heart-20.png" alt="heart"
+              /></a>
+              <a href="#" class="icon"
+                ><img src="./img/icons8-search-20.png" alt="search"
+              /></a>
+            </div>
+            <p class="caption">Angel Wing Begonia</p>
+            <span class="price">$169.00</span>
+          </li>
+          <li class="list-item">
+            <span class="discount">13% OFF</span>
+            <img src="./img/image 2.png" />
+            <div class="hover-elements">
+              <a href="#" class="icon"
+                ><img src="./img/icons8-cart-20.png" alt="cart"
+              /></a>
+              <a href="#" class="icon"
+                ><img src="./img/icons8-heart-20.png" alt="heart"
+              /></a>
+              <a href="#" class="icon"
+                ><img src="./img/icons8-search-20.png" alt="search"
+              /></a>
+            </div>
+            <p class="caption">African Violet</p>
+            <span class="price">$199.00 </span>
+            <span class="price-before"><s>$229.00</s></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
