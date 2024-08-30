@@ -14,6 +14,7 @@
   font-family: "Cera Pro Medium";
   src: url("../font/CeraPro-Black.ttf");
 }
+
 .header{
   height:150px;
   width:100%;
@@ -104,14 +105,11 @@
   height: 2px;
   opacity: 0.2;
 }
-.main{
-  max-width: 1500px;
-}
 .image{
-  height: 200px;
-  width: 400px;
   display: inline-block;
-  padding-left: 200px;
+}
+.big-image{
+  display: inline-block;
   margin-top:100px;
   vertical-align: top;
 }
