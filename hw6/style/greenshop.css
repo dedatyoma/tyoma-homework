@@ -104,6 +104,9 @@
   height: 2px;
   opacity: 0.2;
 }
+.main{
+  max-width: 1500px;
+}
 .image{
   height: 200px;
   width: 400px;
