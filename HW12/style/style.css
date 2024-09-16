@@ -703,6 +703,13 @@ label{
   border-radius: 3px;
   cursor: pointer;
 }
+.media-face{
+  width: 25px;
+  padding: 5px;
+  border: 1px solid #0d8f3f;
+  border-radius: 3px;
+  cursor: pointer;
+}
 .pay{
   width: 224px;
   height: 26px;
