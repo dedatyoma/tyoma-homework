@@ -29,7 +29,7 @@
         font-weight: 500;
         font-style: normal;
       }
-      .login {
+      .login-text {
         font-weight: 600;
         color: black;
       }
@@ -37,7 +37,7 @@
         font-weight: 600;
         color: green;
       }
-      .container {
+      .container-foms {
         height: 100vh;
         width: 100%;
         display: flex;
@@ -47,13 +47,13 @@
       }
       .form {
         max-width: 430px;
-        height: 60%;
+        height: 100;
         width: 100%;
         padding: 30px;
         border-radius: 6px;
         background-color: white;
       }
-      header {
+      .headd {
         font-size: 28px;
         text-align: center;
       }
@@ -141,14 +141,21 @@
       .fa-facebook-f {
         color: blue;
       }
+      .close-button{
+       position: relative;
+       left:70px;
+       font-size: 40px;
+       bottom: 20px;
+       cursor: pointer;
+      }
     </style>
   </head>
   <body>
-    <section class="container foms">
-      <div class="form login">
+    <section id="modal" class="container-foms">
+      <div class="form">
         <div class="form-content">
-          <header>
-            <a class="login">Login |</a> <a class="register">Register</a>
+          <header class="headd">
+            <a class="login-text">Login |</a> <a class="register">Register</a> <span class="close-button" id="closeModal">&times;</span>
           </header>
           <p>Enter your email and password to register.</p>
           <form action="#">
@@ -179,13 +186,13 @@
 
             <div class="line"></div>
 
-            <div class="cont">
+            <div class="continue">
               <button class="cont-butt">
                 <i class="fa-brands fa-google"></i>Continue with Google
               </button>
             </div>
 
-            <div class="cont">
+            <div class="continue">
               <button class="cont-butt">
                 <i class="fa-brands fa-facebook-f"></i>Continue with Facebook
               </button>

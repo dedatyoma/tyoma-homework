@@ -20,14 +20,13 @@
   font-family:"Cera Pro Medium";
   src: url("../font/CeraPro-Medium.ttf");
 }
-.container{
+.flex-container{
   padding-top: 50px;
   max-width: 1200px;
   margin: 0 auto;
 }
 .up {
   display: flex;
-  flex-direction: row;
 }
 .block{
   display: flex;

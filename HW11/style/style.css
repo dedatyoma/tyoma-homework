@@ -12,7 +12,7 @@
   font-family: Cera Pro;
   font-weight: 500;
 }
-.container {
+.last-container {
   width: 1200px;
   height: 610px;
   margin: 0 auto;
@@ -37,7 +37,7 @@
 .garden{
   margin: 25px;
 }
-.caption {
+.cap{
   color:#3D3D3D;
   margin-top: 15px;
   font-family:"Cera Pro Bold";

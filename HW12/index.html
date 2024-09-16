@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img class="logo" src="./svg/Logo.svg" />
+        <ul class="menu">
+          <li class="link"><a href="#" class="sub">Home</a></li>
+          <li class="link"><a href="#" class="sub">Shop</a></li>
+          <li class="link"><a href="#" class="sub">Plant Care</a></li>
+          <li class="link"><a href="#" class="sub">Blogs</a></li>
+        </ul>
+        <div class="buttons">
+          <button class="trans1"><img src="./svg/Vector.svg" /></button>
+          <button class="trans"><img src="./svg/Group 1.svg" /></button>
+          <button class="login" id="openModal"><img src="./svg/Logout.svg" />Login</button>
+        </div>
+      </div>
+      <div class="welcome">
+        <div class="greenshop">
+          <h3 class="small-text">WELCOME TO GREENSHOP</h3>
+          <h1 class="make">
+            LET'S MAKE A BETTER <span class="planet">PLANET</span>
+          </h1>
+          <p class="par">
+            We are an online plant shop offering a wide range of cheap and
+            trendy plants. Use our plants to create an unique Urban Jungle.
+            Order your favorite plants!
+          </p>
+          <button class="shop">SHOP NOW</button>
+        </div>
+        <div class="plants">
+          <img class="big-plant" src="./svg/01 1.svg" />
+        </div>
+      </div>
+      <div class="categories">
+        <ul class="list">
+          <h3 class="list-cap">Categories</h3>
+          <li class="link-item-green">
+            <a class="href-green" href="#"
+              >House Plants <span class="count">(33)</span></a
+            >
+          </li>
+          <li class="link-item">
+            <a class="href" href="#"
+              >Potter Plants <span class="count">(12)</span></a
+            >
+          </li>
+          <li class="link-item">
+            <a class="href" href="#">Seeds <span class="count">(65)</span></a>
+          </li>
+          <li class="link-item">
+            <a class="href" href="#"
+              >Small Plants <span class="count">(39)</span></a
+            >
+          </li>
+          <li class="link-item">
+            <a class="href" href="#"
+              >Big Plants <span class="count">(23)</span></a
+            >
+          </li>
+          <li class="link-item">
+            <a class="href" href="#"
+              >Succulents <span class="count">(17)</span></a
+            >
+          </li>
+          <li class="link-item">
+            <a class="href" href="#"
+              >Trerrariums <span class="count">(19)</span></a
+            >
+          </li>
+          <li class="link-item">
+            <a class="href" href="#"
+              >Gardering <span class="count">(13)</span></a
+            >
+          </li>
+          <li class="link-item">
+            <a class="href" href="#"
+              >Accessories <span class="count">(18)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="slider">
+        <h3 class="name-range">Price Range</h3>
+        <div class="range">
+          <div class="range-slider">
+            <span class="range-selected"></span>
+          </div>
+          <div class="range-input">
+            <input
+              type="range"
+              class="min"
+              min="39"
+              max="1599"
+              value="39"
+              step="10"
+            />
+            <input
+              type="range"
+              class="max"
+              min="39"
+              max="1599"
+              value="1230"
+              step="10"
+            />
+          </div>
+          <div class="range-price">
+            <label for="min">Min</label>
+            <input type="number" name="min" value="39" />
+            <label for="max">Max</label>
+            <input type="number" name="max" value="1230" />
+          </div>
+          <button class="filter">Filter</button>
+        </div>
+      </div>
+      <div class="size">
+        <ul class="list">
+          <h3 class="list-cap">Size</h3>
+          <li class="link-item">
+            <a class="href" href="#">Small <span class="count">(119)</span></a>
+          </li>
+          <li class="link-item">
+            <a class="href" href="#">Medium <span class="count">(86)</span></a>
+          </li>
+          <li class="link-item">
+            <a class="href" href="#">Large <span class="count">(78)</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="supersale">
+        <img src="./svg/Super Sale Banner.svg" alt="plant" class="sale" />
+      </div>
+      <div class="main-content">
+        <div class="filters">
+          <div class="filter-options">
+            <a href="#" class="nav-item">All Plants</a>
+            <a href="#" class="nav-item">New Arrivals</a>
+            <a href="#" class="nav-item">Sale</a>
+          </div>
+          <div class="sorting">
+            <label for="sort">Short by:</label>
+            <select id="sort">
+              <option class="opt" value="default">Default sorting</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="goods">
+        <ul class="product-list">
+          <li class="product-item">
+            <img class="plant1" src="./svg/image 1.svg" />
+            <div class="hover-elements">
+              <img class="icon1" src="./svg/Vector (1).svg">
+              <img src="./svg/heart 1.svg">
+              <img class="icon3" src="./svg/Frame.svg">
+            </div>
+            <p class="caption">Barberton Daisy</p>
+            <span class="price">$119.00</span>
+          </li>
+          <li class="product-item">
+            <img class="plant1" src="./svg/product-21-320x320 1.svg" />
+            <div class="hover-elements">
+              <img class="icon1" src="./svg/Vector (1).svg">
+              <img src="./svg/heart 1.svg">
+              <img class="icon3" src="./svg/Frame.svg">
+            </div>
+            <p class="caption">Angel Wing Begonia</p>
+            <span class="price">$169.00</span>
+          </li>
+          <li class="product-item">
+            <span class="discount">13% OFF</span>
+            <img class="plant1" src="./svg/image 2.svg" />
+            <div class="hover-elements">
+              <img class="icon1" src="./svg/Vector (1).svg" />
+              <img src="./svg/heart 1.svg" />
+              <img class="icon3" src="./svg/Frame.svg" />
+            </div>
+            <p class="caption">African Violet</p>
+            <span class="price">$199.00</span>
+            <span class="price-before"><s>$229.00</s></span>
+          </li>
+          <li class="product-item">
+            <img class="plant1" src="./svg/01 3.svg" />
+            <div class="hover-elements">
+              <img class="icon1"  src="./svg/Vector (1).svg">
+              <img src="./svg/heart 1.svg">
+              <img class="icon3" src="./svg/Frame.svg">
+            </div>
+            <p class="caption">Beach Spider Lily</p>
+            <span class="price">$129.00</span>
+          </li>
+          <li class="product-item">
+            <img class="plant1" src="./svg/image 7.svg" />
+            <div class="hover-elements">
+              <img class="icon1" src="./svg/Vector (1).svg">
+              <img src="./svg/heart 1.svg">
+              <img class="icon3" src="./svg/Frame.svg">
+            </div>
+            <p class="caption">Blushing Bromeliad</p>
+            <span class="price">$139.00</span>
+          </li>
+          <li class="product-item">
+            <img class="plant1" src="./svg/image 8.svg" />
+            <div class="hover-elements">
+              <img class="icon1" src="./svg/Vector (1).svg">
+              <img src="./svg/heart 1.svg">
+              <img class="icon3" src="./svg/Frame.svg">
+            </div>
+            <p class="caption">Aluminum Plant</p>
+            <span class="price">$179.00</span>
+          </li>
+          <li class="product-item">
+            <img class="plant1" src="./svg/image 9.svg" />
+            <div class="hover-elements">
+              <img class="icon1" src="./svg/Vector (1).svg">
+              <img src="./svg/heart 1.svg">
+              <img class="icon3" src="./svg/Frame.svg">
+            </div>
+            <p class="caption">Bird’s Nest Fern</p>
+            <span class="price">$99.00</span>
+          </li>
+          <li class="product-item">
+            <img class="plant1" src="./svg/product-20-320x320 1.svg" />
+            <div class="hover-elements">
+              <img class="icon1" src="./svg/Vector (1).svg">
+              <img src="./svg/heart 1.svg">
+              <img class="icon3" src="./svg/Frame.svg">
+            </div>
+            <p class="caption">Broadleaf Lady Palm</p>
+            <span class="price">$59.00</span>
+          </li>
+          <li class="product-item">
+            <img class="plant1" src="./svg/image 10.svg" />
+            <div class="hover-elements">
+              <img class="icon1" src="./svg/Vector (1).svg">
+              <img src="./svg/heart 1.svg">
+              <img class="icon3" src="./svg/Frame.svg">
+            </div>
+            <p class="caption">Chinese Evergreen</p>
+            <span class="price">$39.00</span>
+          </li>
+        </ul>
+      </div>
+      <div class="pagination">
+        <ul class="pagination-list">
+          <li class="pagination-item">
+            <a href="#" class="product-page">1</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#" class="product-page">2</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#" class="product-page">3</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#" class="product-page">4</a>
+          </li>
+          <li class="pagination-item">
+            <a href="#" class="product-page">&gt;</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-container">
+        <div class="up">
+          <div class="block">
+            <img src="./svg/image 14.svg" class="flwr" />
+            <div class="text">
+              <h2 class="head">Summer cactus & succulents</h2>
+              <h3 class="paragraph">
+                We are an online plant shop offering a wide range of cheap and
+                trendy plants
+              </h3>
+              <button class="find">Find More →</button>
+            </div>
+          </div>
+          <div class="block">
+            <img src="./svg/image 15.svg" class="flwr" />
+            <div class="text">
+              <h2 class="head">Styling Trends & much more</h2>
+              <h3 class="paragraph">
+                We are an online plant shop offering a wide range of cheap and
+                trendy plants
+              </h3>
+              <button class="find">Find More →</button>
+            </div>
+          </div>
+        </div>
+        <div class="down">
+          <div class="blog">
+            <h1 class="big-t">Our Blog Posts</h1>
+            <p class="small-t">
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants.
+            </p>
+          </div>
+          <div class="products">
+            <ul class="read-list">
+              <li class="list-item">
+                <img src="./svg/01.svg" />
+                <div class="post-content">
+                  <p class="post-date">September 12 | Read in 6 minutes</p>
+                  <h3 class="name">
+                    Cactus & Succulent <br />
+                    Care Tips
+                  </h3>
+                  <p class="down-text">
+                    Cacti are succulents are easy care <br />
+                    plants for any home or patio.
+                  </p>
+                  <p class="read-more">Read More →</p>
+                </div>
+              </li>
+              <li class="list-item">
+                <img src="./svg/02.svg" />
+                <div class="post-content">
+                  <p class="post-date">September 13 | Read in 2 minutes</p>
+                  <h3 class="name">
+                    Top 10 Succulents for <br />
+                    Your Home
+                  </h3>
+                  <p class="down-text">
+                    Best in hanging baskets. Prefers <br />
+                    medium to high light.
+                  </p>
+                  <p class="read-more">Read More →</p>
+                </div>
+              </li>
+              <li class="list-item">
+                <img src="./svg/03.svg" />
+                <div class="post-content">
+                  <p class="post-date">September 15 | Read in 3 minutes</p>
+                  <h3 class="name">
+                    Cacti & Succulent <br />
+                    Care Tips
+                  </h3>
+                  <p class="down-text">
+                    Cacti and succulents thrive in <br />
+                    containers and because most are..
+                  </p>
+                  <p class="read-more">Read More →</p>
+                </div>
+              </li>
+              <li class="list-item">
+                <img src="./svg/04.svg" />
+                <div class="post-content">
+                  <p class="post-date">September 15 | Read in 2 minutes</p>
+                  <h3 class="name">
+                    Best Houseplants<br />
+                    Room By Room
+                  </h3>
+                  <p class="down-text">
+                    The benefits of houseplants are <br />
+                    endless. In addition to..
+                  </p>
+                  <p class="read-more">Read More →</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="last-container">
+        <div class="frame1">
+          <div class="garden">
+            <img src="./svg/Picture.svg" alt="" />
+            <h2 class="cap">Garden Care</h2>
+            <p class="paragraph">
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants.
+            </p>
+          </div>
+          <div class="garden">
+            <img src="./svg/Picture2.svg" alt="" />
+            <h2 class="cap">Plant Renovation</h2>
+            <p class="paragraph">
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants.
+            </p>
+          </div>
+          <div class="garden">
+            <img src="./svg/Picture3.svg" alt="" />
+            <h2 class="cap">Watering Graden</h2>
+            <p class="paragraph">
+              We are an online plant shop offering a wide range of cheap and
+              trendy plants.
+            </p>
+          </div>
+          <div class="address">
+            <h2 class="cap">Would you like to join newsletters?</h2>
+            <div class="add">
+              <input
+                type="text"
+                class="in"
+                placeholder="enter your email address..."
+              />
+              <button class="join">Join</button>
+            </div>
+            <p class="paragraph2">
+              We usually post offers and challenges in newsletter. We’re your
+              online houseplant destination. We offer a wide range of
+              houseplants and accessories shipped directly from our (green)house
+              to yours!
+            </p>
+          </div>
+        </div>
+        <div class="frame2">
+          <div class="cont"><img src="./svg/Logo.svg" class="group" /></div>
+
+          <div class="cont">
+            <img src="./svg/Location.svg" class="icon" />
+            <h3 class="map">70 West Buckingham Ave. Farmingdale, NY 11735</h3>
+          </div>
+          <div class="cont">
+            <img src="./svg/Message.svg" class="icon" />
+            <h3 class="text-back">contact@greenshop.com</h3>
+          </div>
+          <div class="numb">
+            <img src="./svg/Calling.svg" class="icon" />
+            <h3 class="text-back">+88 01911 717 490</h3>
+          </div>
+        </div>
+        <div class="frame3">
+          <div class="links">
+            <ul class="my-acc">
+              <h3 class="list-name">My Account</h3>
+              <li>My Account</li>
+              <li>Our stores</li>
+              <li>Contact us</li>
+              <li>Career</li>
+              <li>Specials</li>
+            </ul>
+            <ul class="help">
+              <h3 class="list-name">Help & Guide</h3>
+              <li>Help Center</li>
+              <li>How to Buy</li>
+              <li>Shipping & Delivery</li>
+              <li>Product Policy</li>
+              <li>How to Return</li>
+            </ul>
+            <ul class="category">
+              <h3 class="list-name">Categories</h3>
+              <li>House Plants</li>
+              <li>Potter Plants</li>
+              <li>Seeds</li>
+              <li>Small Plants</li>
+              <li>Accessories</li>
+            </ul>
+          </div>
+          <div class="social-media">
+            <h3 class="name">Social Media</h3>
+            <div class="icons">
+              <button class="media">
+                <i class="fa-brands fa-facebook-f" style="color: #0d8f3f"></i>
+              </button>
+              <button class="media">
+                <i class="fa-brands fa-instagram" style="color: #0d8f3f"></i>
+              </button>
+              <button class="media">
+                <i class="fa-brands fa-twitter" style="color: #0d8f3f"></i>
+              </button>
+              <button class="media">
+                <i class="fa-brands fa-linkedin-in" style="color: #0d8f3f"></i>
+              </button>
+              <button class="media">
+                <i class="fa-brands fa-youtube" style="color: #0d8f3f"></i>
+              </button>
+            </div>
+            <h3 class="name">We Accept</h3>
+            <img class="pay" src="./svg/image 16.svg" alt="pay" />
+          </div>
+        </div>
+        <h3 class="rights">© 2021 GreenShop. All Rights Reserved.</h3>
+      </div>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <a class="login-text">Login |</a> <a class="register">Register</a> 
+            <p class="enter">Enter your email and password to register.</p>
+            <form id="registrationForm">
+                <input type="text" id="name" name="name" required placeholder="Username">
+
+                <input type="email" id="email" name="email" required placeholder="Email">
+
+                <input type="password" id="password" name="password" required placeholder="Password">
+                <input type="password" id="password" name="conf-password" required placeholder="Confirm Password">
+
+                <button type="submit" class="submit-button">Register</button>
+                <div class="line"></div>
+
+                <div class="continue">
+                  <button class="cont-butt">
+                    <img class="cont-icon" src="./svg/google 1.svg" alt="google">Continue with Google
+                  </button>
+                </div>
+    
+                <div class="continue">
+                  <button class="cont-butt">
+                    <img class="cont-icon" src="./svg/facebook 1.svg" alt="facebook">Continue with Facebook
+                  </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
