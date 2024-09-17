@@ -401,16 +401,33 @@ label{
 .hover-elements{
   position: absolute;
   max-width: 100px;
-  right:90px;
+  right:85px;
   top:250px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.product-item:hover .hover-elements{
+  opacity: 1;
+  visibility: visible;
 }
 .icon1{
   position: absolute;
-  right:60px;
+  width: 20px;
+  height: 20px;
+  right:65px;
+}
+.icon2{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right:10px;
 }
 .icon3{
   position: absolute;
-  left:60px;
+  width: 20px;
+  height: 20px;
+  left:25px;
 }
 .pagination {
   float:right;
