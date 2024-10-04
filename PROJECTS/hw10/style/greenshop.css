@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Cera Pro" ;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cera Pro";
+  src: url("../font/CeraPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Cera Pro Medium";
+  src: url("../font/CeraPro-Black.ttf");
+}
+
+.header{
+  display: flex;
+  height:150px;
+  width:100%;
+  padding-top: 41px;
+  justify-content: center;
+}
+.logo {
+  height:30px; 
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 20px;
+  padding-right:200px;
+}
+.log{
+  height:50px;
+  width: 100px;
+  margin: 20px;
+  display:flex;
+  vertical-align: top;
+}
+.group {
+  cursor: pointer;
+  width:220px;
+}
+.menu {
+  display:flex;
+  width: 40%;
+  vertical-align: top;
+}
+.menu > ul{ 
+  position: relative;
+  height:100px;
+  display: flex;
+  margin-top: 15px;
+}
+.menu > ul li a {
+  display: inline-flex;
+  padding: 15px 30px 15px 30px;
+  font-size: 25px;
+}
+.sub{
+  position: relative;
+  margin-right: 35px;
+  color:black;
+}
+.sub::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  width: 100%;
+  height: 2px;
+  background-color:  #53bb68;
+  transform: scaleX(0); 
+  transform-origin: bottom ;
+  transition: 0.3s ease-out;
+}
+.sub:hover{
+  color: black;
+  font-weight: bold;
+}
+.sub:hover::after {
+  transform: scaleX(1); 
+  transform-origin: bottom ;
+}
+
+.login {
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color:white;
+  background-color: rgb(7, 167, 7);
+  border-radius: 10px;
+  border: 1px;
+  padding: 10px;
+  cursor: pointer;
+  vertical-align: top; 
+}
+.logout{
+  margin-top: 3px;
+}
+.line {
+  border: 0;
+  clear:both;
+  display:block;
+  margin: auto;
+  width: 96%;               
+  background-color:rgb(7, 167, 7);
+  height: 2px;
+  opacity: 0.2;
+}
+.image{
+  display: inline-block;
+}
+.big-image{
+  display: inline-block;
+  margin-top:100px;
+  vertical-align: top;
+}
+.text {
+  display: inline-block;
+  width: 700px; 
+  margin-top: 250px;
+  margin-left:300px;
+  vertical-align: top;
+}
+.big-text {
+  line-height: 50px;
+  color:rgb(60, 59, 59);
+  font-weight: 500;
+  font-style: normal;
+  font-size:20px;
+}
+.main-text {  
+  line-height: 80px;
+  color:rgb(60, 59, 59);
+  font-family: "Cera Pro Medium";
+  font-weight: 900;
+  font-style: normal;
+  font-size:80px;
+}
+span {
+  font-weight: 900;
+  font-style: normal;
+  color:rgb(7, 167, 7);
+  font-family: "Cera Pro Medium";
+}
+.paragraph {
+  line-height: 30px;
+  margin-top: 20px;
+  font-size: 16px;
+  color:#5b5b5b;
+}
+.shop {
+  margin-top: 30px;
+  width: 30%;
+  font-size: 20px;
+  font-weight: 600;
+  color:white;
+  padding: 10px;
+  background-color: rgb(7, 167, 7);
+  border-radius: 5px;
+  border: 1px;
+  cursor: pointer;
+}
+.sub-menu {
+  position: relative;
+  text-align: start;
+  margin-top: 45px;
+  display: none;
+}
+.list li:hover > ul {
+  display:block;
+}
+.sub-menu2 {
+  position: absolute;
+  left:130px;
+  top:-150px;
+  display: none;
+}
+.menu .list li ul:hover > li{
+  display: block;
+}
+.sub-element{
+  position: relative;
+  background-color:#EDF6EE ;
+  height: 100%;
+  width:100%;
+  color: #3D3D3D;
+}
+.sub-element2{
+  position: relative;
+  background-color:#EDF6EE ;
+  left:50px;
+  top:-15px;
+  width:200%;
+  color: #3D3D3D;
+}
+.sub-item{
+  width: 100%;
+  color: #3D3D3D;
+}
+.sub-item2{
+  width: 100%;
+  color: #3D3D3D;
+}
+.sub-item:hover{
+  background-color: #1A712A;
+  color:white;
+  font-weight: bold;
+}
+.sub-item2:hover{
+  background-color: #1A712A;
+  color:white;
+  font-weight: bold;
+}
+.sub-element:hover .sub-item{
+  background-color: #1A712A;
+  color:white;
+  font-weight: bolder;
+}
+.sub-element2:hover{
+  background-color: #1A712A;
+  
+}
+
+

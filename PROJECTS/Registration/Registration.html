@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button" id="closeModal">&times;</span>
+        <a class="login-text">Login |</a> <a class="register">Register</a>
+        <p class="enter">Enter your email and password to register.</p>
+        <form id="registrationForm">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Username"
+          />
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Email"
+          />
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Password"
+          />
+          <input
+            type="password"
+            id="password"
+            name="conf-password"
+            required
+            placeholder="Confirm Password"
+          />
+
+          <button type="submit" class="submit-button">Register</button>
+          <div class="line"></div>
+
+          <div class="continue">
+            <button class="cont-butt">
+              <img
+                class="cont-icon"
+                src="./svg/google 1.svg"
+                alt="google"
+              />Continue with Google
+            </button>
+          </div>
+
+          <div class="continue">
+            <button class="cont-butt">
+              <img
+                class="cont-icon"
+                src="./svg/facebook 1.svg"
+                alt="facebook"
+              />Continue with Facebook
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
