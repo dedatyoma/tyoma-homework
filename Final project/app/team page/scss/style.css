@@ -8,6 +8,11 @@
   font-optical-sizing: auto;
 }
 
+body {
+  width: 100%;
+  height: 100%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -106,7 +111,7 @@ span {
 @media screen and (max-width: 768px) {
   .navig-list {
     position: absolute;
-    bottom: 82%;
+    bottom: 85%;
     left: 50px;
   }
 }
@@ -130,11 +135,7 @@ span {
 }
 
 .frame3 {
-  width: Fill 1, 920px px;
-  height: Hug 92px px;
   padding: 0px 280px 0px 280px;
-  gap: 10px;
-  opacity: 0px;
 }
 .frame3 .frame3_text {
   font-size: 38px;
@@ -143,22 +144,43 @@ span {
   text-align: left;
   color: #F0145A;
 }
-
-.spacer {
-  width: 1920px;
-  height: 60px;
+@media screen and (max-width: 768px) {
+  .frame3 .frame3_text {
+    width: 700px;
+    font-size: 20px;
+    line-height: 20px;
+    position: relative;
+    top: 20px;
+    right: 230px;
+  }
 }
 
 .teampage {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 50px 0 50px 0;
 }
 .teampage .teampage_worker {
   display: flex;
 }
 .teampage .teampage_worker li {
   margin: 20px;
+}
+@media screen and (max-width: 1400px) {
+  .teampage .teampage_worker .worker {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .teampage .teampage_worker .worker {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .teampage .teampage_worker .worker {
+    width: 220px;
+  }
 }
 .teampage .teampage_worker .name {
   margin-top: 15px;
@@ -167,6 +189,11 @@ span {
   line-height: 19.5px;
   text-align: left;
   color: #323264;
+}
+@media screen and (max-width: 768px) {
+  .teampage .teampage_worker .name {
+    font-size: 14px;
+  }
 }
 .teampage .teampage_worker .name:hover {
   color: #F0145A;
@@ -178,6 +205,11 @@ span {
   text-align: left;
   margin-top: 5px;
   color: #B3B3BA;
+}
+@media screen and (max-width: 768px) {
+  .teampage .teampage_worker .role {
+    font-size: 12px;
+  }
 }
 .teampage .arrow-button {
   float: right;
@@ -226,6 +258,21 @@ span {
 .contact-section .address-info {
   margin-left: 100px;
 }
+@media screen and (max-width: 1400px) {
+  .contact-section .address-info {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact-section .address-info {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-section .address-info {
+    margin-left: 0px;
+  }
+}
 .contact-section .contact-details {
   display: flex;
 }
@@ -254,4 +301,19 @@ span {
   text-align: right;
   color: #999;
   margin-right: 150px;
+}
+@media screen and (max-width: 1400px) {
+  .contact-section .copyright {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact-section .copyright {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-section .copyright {
+    margin-right: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */

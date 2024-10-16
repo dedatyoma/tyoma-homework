@@ -99,7 +99,7 @@ span{
 @media screen and (max-width: 768px) {
   .navig-list{
     position: absolute;
-    bottom: 82%;
+    bottom: 85%;
     left: 50px;
   }
  }
@@ -120,6 +120,32 @@ span{
   left: 630px;
   top: 20px;
 }
+@media screen and (max-width: 1400px) {
+  .h-letter{
+    width: 697px;
+    height: 799px;
+    top: 1px;
+    left: 372px;
+    gap: 0px;
+    opacity: 0px;
+  }
+ }
+ @media screen and (max-width:1024px){
+  .h-letter{
+    width: 669.96px;
+    height: 768px;
+    left: 177px;
+  }
+ }
+ @media screen and (max-width:768px) {
+  .h-letter{
+   width: 600px;
+   height: 668px;
+   position: absolute;
+   left: 50px;
+   top:250px;
+  }
+}
 .legal{
   font-size: 38px;
   font-weight: 700;
@@ -130,12 +156,30 @@ span{
   left: 800px;
   color:white;
 }
-@media screen and (max-width:768px) {
-  .h-letter{
-   width: 700px;
-   height: 968px;
-   position: absolute;
-   left: 100px;
+@media screen and (max-width:1400px){
+  .legal{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46.32px;
+    position: absolute;
+    bottom: 340px;
+    left: 500px;
+  }
+}
+@media screen and (max-width:1024px){
+  .legal{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46.32px;
+    position: absolute;
+    bottom: 340px;
+    left: 300px;
+  }
+}
+@media screen and (max-width:768px){
+  .legal{
+    bottom: 340px;
+    left: 150px;
   }
 }
 .arrow-btn { 
@@ -145,6 +189,24 @@ span{
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+@media screen and (max-width:1400px){
+  .arrow-btn{
+    left:650px;
+    bottom: -10px;
+  }
+}
+@media screen and (max-width:1024px){
+  .arrow-btn{
+    left:450px;
+    bottom: -10px;
+  }
+}
+@media screen and (max-width:768px){
+  .arrow-btn{
+    left:350px;
+    bottom: -10px;
+  }
 }
 .arrow {
   display: inline-block;
@@ -176,6 +238,23 @@ span{
   align-items: center;
   margin-top: 90px;
 }
+@media screen and (max-width:1400px){
+  .select{
+    width: 1350px;
+  }
+}
+@media screen and (max-width:1024px){
+  .select{
+    width:1000px;
+  }
+}
+@media screen and (max-width:768px){
+  .select{
+    width: 768px;
+    position: relative;
+    top:800px;
+  }
+}
 .divider {
   width: 3px;
   height: 200px;
@@ -194,6 +273,11 @@ span{
   font-weight: bold;
   cursor: pointer;
 }
+@media screen and (max-width:1024px){
+  .text-hover{
+    font-size: 20px;
+  }
+}
 .text {
   margin: 10px 0;
   font-size: 30px;
@@ -201,6 +285,11 @@ span{
   color:$text-muted;
   cursor: pointer;
 } 
+@media screen and (max-width:1024px){
+  .text{
+    font-size: 20px;
+  }
+}
 .text:hover{
   color:$text-highlight;
 }
@@ -213,12 +302,21 @@ span{
     font-weight: 700;
     color:$parag-color;
   }
-
+  @media screen and (max-width:1024px){
+    h1{
+      font-size:25px;
+    }
+  }
   p {
     font-size: 18px;
     line-height: 1.5;
     color:$parag-color;
     width: 900px;
+  }
+  @media screen and (max-width:1024px){
+    p{
+      width: 600px;
+    }
   }
 }
 .services{
@@ -226,6 +324,20 @@ span{
   position: relative;
   left:300px;
   margin-top: 100px;
+}
+@media screen and (max-width:1400px){
+  .services{
+    max-width:85% ;
+    position: relative;
+    left:100px;
+    margin-top: 100px;
+    }
+}
+@media screen and (max-width:768px){
+  .services{
+    top:900px;
+    left:50px;
+  }
 }
 .services__button{
   background-color: transparent;
@@ -240,6 +352,11 @@ span{
   font-weight: 700;
   font-size: 38px;
 }
+@media screen and (max-width:1024px){
+  .services__caption{
+    font-size: 25px;
+  }
+}
 .services__menu{
   display: flex;
   margin-top: 50px;
@@ -248,20 +365,51 @@ span{
   display: flex;
   margin-top: 100px;
 }
+@media screen and (max-width:1024px){
+  .services__menu2{
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width:768px){
+  .services__menu2{
+    margin-top: 150px;
+  }
+}
 .icon{
   width:$icon-width;
   height:$icon-height;
+}
+@media screen and (max-width:1024px){
+  .icon{
+    width:50px ;
+    height:50px ;
+  }
 }
 .services__menu__item{
   width:493px;
   height: 164px;
   margin: 10px;
 }
+@media screen and (max-width:1024px){
+  .services__menu__item{
+    width: 250px;
+  }
+}
+@media screen and (max-width:768px){
+  .services__menu__item{
+   margin: 0 auto;
+  }
+}
 h1{
   font-size:22px;
   color:#24A3FF;
   font-weight: 700;
   margin-top: 10px;
+}
+@media screen and (max-width:1400px){
+  h1{
+    font-size:18px;
+  }
 }
 .description{
 font-size: 16px;
@@ -271,17 +419,51 @@ text-align: left;
 color:#FFFFFF;
 margin-top: 10px;
 }
-.spacer{
-  height:60px;
+@media screen and (max-width:1400px){
+  .description{
+    width: 340px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:1024px){
+  .description{
+    width: 250px;
+  }
+}
+@media screen and (max-width:768px){
+  .description{
+    width: 200px;
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 .frame3{
   display: flex;
   justify-content: center;
+  padding-top: 60px;
+}
+@media screen and (max-width:1024px){
+  .frame3{
+    width: 900px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:768px){
+  .frame3{
+    width: 768px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .frame3__worker{
   width: 400px;
   height: 298px;
   border-radius: 12px 0px 0px 12px;
+}
+@media screen and (max-width:1400px){
+  .frame3__worker{
+    max-width: 80%;
+  }
 }
 .frame3__partner{
   background-color: #d2cccc65;
@@ -290,12 +472,27 @@ margin-top: 10px;
   border-radius: 0px 12px 0px 12px;
   opacity: 0px;
 }
+@media screen and (max-width:1400px){
+  .frame3__partner{
+    width: 900px;
+  }
+}
+@media screen and (max-width:1024px){
+  .frame3__partner{
+    width: 400px;
+  }
+}
 .frame3__span{
   color:#24A3FF;
   font-size: 14px;
   font-weight: 700;
   margin-top: 70px;
   margin-left: 30px;
+}
+@media screen and (max-width:1024px){
+  .frame3__span{
+    margin-top: 20px;
+  }
 }
 .frame3__description{
   width: 980px;
@@ -305,6 +502,27 @@ margin-top: 10px;
   text-align: left;
   margin-left: 30px;
   color:#F0145A;
+}
+@media screen and (max-width:1400px){
+  .frame3__description{
+    width: 850px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width:1024px){
+  .frame3__description{
+    width: 350px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width:768px){
+  .frame3__description{
+    padding-top:10px ;
+    font-size:20px;
+    line-height: 20px;
+  }
 }
 .frame3__rank, .frame3__name{
   margin-left: 30px;
@@ -316,6 +534,11 @@ margin-top: 10px;
   font-size: 14px;
   margin-top: 9px;
   opacity: 0.5;
+}
+@media screen and (max-width:768px){
+  .frame3__rank{
+    padding-bottom:10px ;
+  }
 }
 .pagination{
   display: flex;
@@ -338,6 +561,7 @@ margin-top: 10px;
 .trust{
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 30px;
   font-weight: 700;
   color:#323264;
 }
@@ -368,6 +592,11 @@ margin-top: 10px;
   margin-top: 30px;
   cursor: pointer;
 }
+@media screen and (max-width:1400px){
+  .public__button{
+    margin-left: 50px;
+  }
+}
 .public__caption{
   color:#F0145A;
   font-weight: 700;
@@ -375,25 +604,81 @@ margin-top: 10px;
   margin-left: 190px;
   margin-top: 30px;
 }
+@media screen and (max-width:1400px){
+  .public__caption{
+    margin-left: 50px;
+    margin-top:10px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .public__caption{
+    font-size: 30px;
+  }
+}
 .recommended{
   background-color:#F5F5FA;
+}
+@media screen and (max-width:1400px){
+  .recommended{
+    width: 1350px;
+  }
+}
+@media screen and (max-width:1024px){
+  .recommended{
+    width:1024px;
+  }
+}
+@media screen and (max-width:768px){
+  .recommended{
+    width: 768px;
+  }
 }
 .public_container{
   display: flex;
   margin-left: 150px;
 }
+@media screen and (max-width:1400px){
+  .public_container{
+    margin: 0;
+    gap:20px;
+  }
+}
+@media screen and (max-width:768px){
+  .public_container{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .row{
   display: inline-block;
   flex-direction: column;
+  width: 513px;
   background-color: #FFFFFF;
-  margin-top: 30px;
-  margin-left: 30px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 
+@media screen and (max-width:1400px){
+  margin-left: 20px;
+  width: 420px;
+}
+@media screen and (max-width: 1024px){
+  width: 290px;
+}
   .public_image{
     width: 513.33px;
     height: 200px;
     border-radius: 8px 8px 0px 0px;
+  }
+  @media screen and (max-width:1400px){
+    .public_image{
+      width: 420px;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .public_image{
+      width: 290px;
+      height: 100px;
+    }
   }
    .title{
       width: 453.33px;
@@ -402,6 +687,19 @@ margin-top: 10px;
       margin-left: 30px;
       margin-top: 30px;
   }
+    @media screen and (max-width:1400px){
+    .title{
+      width: 400px;
+      font-size: 14px;
+      margin-left: 10px;
+    }
+    }
+    @media screen and (max-width: 1024px){
+      .title{
+        width: 250px;
+        font-size:13px;
+      }
+    }
   .data{
     margin-left: 30px;
     margin-top: 15px;
@@ -412,11 +710,28 @@ margin-top: 10px;
     letter-spacing: 1px;
     text-align: left;
   }
+  @media screen and (max-width:1400px){
+    .data{
+      width: 400px;
+      margin-left: 10px;
+    }
+  }
   .line{
     width: 453.33px;
     height: 4px;
     margin: 15px 0 15px 30px;
     background-color: #E6E6F0;
+  }
+  @media screen and (max-width:1400px){
+    .line{
+      width: 400px;
+      margin-left: 10px;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .line{
+      width: 270px;
+    }
   }
   .paragraph{
     width: 453.33px;
@@ -426,6 +741,18 @@ margin-top: 10px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
+  }
+  @media screen and (max-width:1400px){
+    .paragraph{
+      width: 400px;
+      margin-left: 10px;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    .paragraph{
+      width: 280px;
+      font-size: 12px;
+    }
   }
 }
 .contact-section {
@@ -456,6 +783,21 @@ margin-top: 10px;
   .address-info{
     margin-left:100px;
   }
+  @media screen and (max-width: 1400px){
+    .address-info{
+      margin-left: 50px;
+     } 
+  }
+  @media screen and (max-width: 1024px){
+    .address-info{
+     margin-left: 50px;
+    } 
+   }
+   @media screen and (max-width: 768px){
+     .address-info{
+       margin-left: 0px;
+      } 
+   }
   .contact-details{
     display: flex;
   }
@@ -489,4 +831,19 @@ margin-top: 10px;
     color: #999;
     margin-right: 150px;
   }
+  @media screen and (max-width: 1400px){
+    .copyright{
+     margin-right: 50px;
+    } 
+   }
+  @media screen and (max-width: 1024px){
+    .copyright{
+     margin-right: 50px;
+    } 
+   }
+   @media screen and (max-width: 768px){
+    .copyright{
+      margin-right: 0px;
+     } 
+   }
 }

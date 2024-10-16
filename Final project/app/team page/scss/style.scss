@@ -7,6 +7,10 @@
   font-style: normal;
   font-optical-sizing: auto;
 }
+body{
+  width: 100%;
+  height: 100%;
+}
 .header{
   display: flex;
   justify-content:space-between;
@@ -91,7 +95,7 @@ span{
 @media screen and (max-width: 768px) {
   .navig-list{
     position: absolute;
-    bottom: 82%;
+    bottom: 85%;
     left: 50px;
   }
  }
@@ -111,34 +115,52 @@ span{
   text-decoration: underline #F0145A;
 }
 .frame3{
-  width: Fill (1,920px)px;
-  height: Hug (92px)px;
   padding: 0px 280px 0px 280px;
-  gap: 10px;
-  opacity: 0px;
-
-  .frame3_text{
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 46.32px;
-    text-align: left;
-    color:#F0145A;
+    .frame3_text{
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 46.32px;
+      text-align: left;
+      color:#F0145A;
+    }
+  @media screen and (max-width:768px){
+    .frame3_text{
+      width:700px;
+      font-size: 20px;
+      line-height: 20px;
+      position: relative;
+      top:20px;
+      right: 230px;
+    }
   }
-}
-.spacer{
-  width: 1920px;
-  height: 60px;
 }
 .teampage{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 50px 0 50px 0;
 
 .teampage_worker{
   display: flex;
   li{
     margin: 20px;
   }
+  @media screen and (max-width:1400px) {
+    .worker{
+      width: 400px;
+    }
+  }
+  @media screen and (max-width:1024px){
+    .worker{
+      width: 260px;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .worker{
+      width: 220px;
+    }
+  }
+  
   .name{
     margin-top: 15px;
     font-size: 16px;
@@ -146,6 +168,11 @@ span{
     line-height: 19.5px;
     text-align: left;
     color:#323264;
+  }
+  @media screen and (max-width:768px){
+   .name{
+    font-size: 14px;
+   }
   }
   .name:hover{
     color:#F0145A;
@@ -157,6 +184,11 @@ span{
   text-align: left;
   margin-top: 5px;
   color:#B3B3BA;
+  }
+  @media screen and (max-width:768px){
+    .role{
+      font-size: 12px;
+    }
   }
 }
 .arrow-button {
@@ -209,6 +241,21 @@ span{
   .address-info{
     margin-left:100px;
   }
+  @media screen and (max-width: 1400px){
+    .address-info{
+      margin-left: 50px;
+     } 
+  }
+  @media screen and (max-width: 1024px){
+    .address-info{
+     margin-left: 50px;
+    } 
+   }
+   @media screen and (max-width: 768px){
+     .address-info{
+       margin-left: 0px;
+      } 
+   }
   .contact-details{
     display: flex;
   }
@@ -242,4 +289,19 @@ span{
     color: #999;
     margin-right: 150px;
   }
+  @media screen and (max-width: 1400px){
+    .copyright{
+     margin-right: 50px;
+    } 
+   }
+  @media screen and (max-width: 1024px){
+    .copyright{
+     margin-right: 50px;
+    } 
+   }
+   @media screen and (max-width: 768px){
+    .copyright{
+      margin-right: 0px;
+     } 
+   }
 }
