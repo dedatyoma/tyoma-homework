@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+body{
+  background-color: rgb(93, 164, 164);
+}
+.container{
+  background-color: rgb(71, 206, 161);
+}
+.slider_pic{
+ margin: 100px;
+}
+.pic{
+  width: 350px;
+  position: relative;
+  top:50%;
+  left:35%;
+}
